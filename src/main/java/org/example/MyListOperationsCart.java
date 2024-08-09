@@ -3,7 +3,10 @@ package org.example;
 import com.aerospike.client.*;
 import com.aerospike.client.Record;
 import com.aerospike.client.cdt.ListOperation;
+import com.aerospike.client.cdt.CTX;
 import com.aerospike.client.cdt.ListReturnType;
+import com.aerospike.client.cdt.MapOperation;
+import com.aerospike.client.cdt.MapPolicy;
 import com.aerospike.client.policy.WritePolicy;
 
 import java.util.HashMap;
